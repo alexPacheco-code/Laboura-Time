@@ -42,6 +42,7 @@ Aplicación de escritorio en **Python + PySide6 (Qt)** para cronometrar tiempo p
   PySide6>=6.5
 
 ---
+
 ## 🔧 Installation
 
 ```bash
@@ -51,6 +52,45 @@ python -m venv .venv
 
 # 2) instalar dependencias
 pip install -r requirements.txt
+```
+
+---
+
+## ▶️ Run
+
+```bash
+python LabouraTime.py
+```
+
+---
+
+##📁 Project Structure
+
+Laboura-Time/
+├─ LabouraTime.py
+├─ requirements.txt
+├─ README.md
+├─ .gitignore
+└─ docs/
+   ├─ s1-timer.png
+   ├─ s2-history.png
+   └─ s3-edit-dialog.png
+
+---
+
+##❓ Troubleshooting
+Si PySide6 no se instala, actualiza pip:
+
+```bash
+python -m pip install --upgrade pip
+```
+
+Si la app no abre, verifica tu versión de Python (recomendado 3.12/3.13).
+
+Si el push falla porque hay cambios en GitHub, trae primero y reubica tus cambios:
+
+```bash
+git pull --rebase origin main
 ```
 
 
