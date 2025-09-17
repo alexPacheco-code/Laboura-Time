@@ -66,7 +66,7 @@ python LabouraTime.py
 
 ## 📁 Project Structure
 
-```text
+~~~text
 Laboura-Time/
 ├─ LabouraTime.py
 ├─ requirements.txt
@@ -76,24 +76,45 @@ Laboura-Time/
    ├─ s1-timer.png
    ├─ s2-history.png
    └─ s3-edit-dialog.png
-```
+~~~
 
 ---
 
-##❓ Troubleshooting
-Si PySide6 no se instala, actualiza pip:
+## ❓ Troubleshooting
 
-```bash
-python -m pip install --upgrade pip
-```
+- **No se instala PySide6**  
+  Actualiza `pip` y reinstala dependencias:
+  ~~~bash
+  python -m pip install --upgrade pip
+  pip install -r requirements.txt
+  ~~~
 
-Si la app no abre, verifica tu versión de Python (recomendado 3.12/3.13).
+- **La app no abre o se cierra al iniciar**  
+  Comprueba la versión de Python (recomendado 3.10/3.11) y ejecuta desde terminal para ver el error:
+  ~~~bash
+  python LabouraTime.py
+  ~~~
 
-Si el push falla porque hay cambios en GitHub, trae primero y reubica tus cambios:
+- **`git push` falla porque hay cambios en GitHub**  
+  Trae primero y reubica tus commits:
+  ~~~bash
+  git pull --rebase origin main
+  # si hay conflicto (p. ej., en README.md):
+  # 1) abre el archivo y resuelve las marcas <<<<<<< ======= >>>>>>>
+  # 2) guarda y continúa:
+  git add README.md
+  git rebase --continue
+  git push
+  ~~~
 
-```bash
-git pull --rebase origin main
-```
+- **Subí `data.json` por error y quiero ignorarlo**  
+  (Asegúrate de tener `data.json` en `.gitignore`)
+  ~~~bash
+  git rm --cached data.json
+  git commit -m "chore: stop tracking data.json"
+  git push
+  ~~~
+
 
 
 
