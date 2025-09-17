@@ -13,6 +13,11 @@
   </a>
 </p>
 
+---
+
+**Descarga para Windows:** [Último release](https://github.com/alexPacheco-code/Laboura-Time/releases/latest)
+
+---
 
 Aplicación de escritorio en **Python + PySide6 (Qt)** para cronometrar tiempo por **secciones** y **subdivisiones**, con histórico filtrable y exportación a CSV.  
 
@@ -128,6 +133,7 @@ Laboura-Time/
   git commit -m "chore: stop tracking data.json"
   git push
   ~~~
+
 
 
 
