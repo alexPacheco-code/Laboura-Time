@@ -41,4 +41,17 @@ Aplicación de escritorio en **Python + PySide6 (Qt)** para cronometrar tiempo p
   ```txt
   PySide6>=6.5
 
+---
+## 🔧 Installation
+
+```bash
+# 1) (opcional) crear y activar entorno virtual en Windows
+python -m venv .venv
+.venv\Scripts\activate
+
+# 2) instalar dependencias
+pip install -r requirements.txt
+
+
+
 
