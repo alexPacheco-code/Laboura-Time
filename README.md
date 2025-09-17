@@ -64,8 +64,9 @@ python LabouraTime.py
 
 ---
 
-##📁 Project Structure
+## 📁 Project Structure
 
+```text
 Laboura-Time/
 ├─ LabouraTime.py
 ├─ requirements.txt
@@ -75,6 +76,7 @@ Laboura-Time/
    ├─ s1-timer.png
    ├─ s2-history.png
    └─ s3-edit-dialog.png
+```
 
 ---
 
@@ -92,6 +94,7 @@ Si el push falla porque hay cambios en GitHub, trae primero y reubica tus cambio
 ```bash
 git pull --rebase origin main
 ```
+
 
 
 
