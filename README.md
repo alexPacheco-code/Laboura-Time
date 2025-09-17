@@ -17,6 +17,11 @@ Aplicación de escritorio en **Python + PySide6 (Qt)** para cronometrar tiempo p
 
 ---
 
+## 🖥️ Capturas
+
+
+---
+
 ## 📦 Requisitos
 - Python **3.10+** (recomendado 3.10 o 3.11)  
 - Dependencias:  
