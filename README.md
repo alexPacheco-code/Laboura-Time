@@ -90,7 +90,7 @@ Laboura-Time/
   ~~~
 
 - **La app no abre o se cierra al iniciar**  
-  Comprueba la versión de Python (recomendado 3.10/3.11) y ejecuta desde terminal para ver el error:
+  Comprueba la versión de Python (recomendado 3.12/3.13) y ejecuta desde terminal para ver el error:
   ~~~bash
   python LabouraTime.py
   ~~~
@@ -114,6 +114,7 @@ Laboura-Time/
   git commit -m "chore: stop tracking data.json"
   git push
   ~~~
+
 
 
 
