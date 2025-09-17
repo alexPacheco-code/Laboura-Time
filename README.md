@@ -29,7 +29,7 @@ Aplicación de escritorio en **Python + PySide6 (Qt)** para cronometrar tiempo p
 </p>
 
 <p align="center">
-  <img src="docs/s3-edit-dialog.png" alt="Edit session dialog" width="55%"><br>
+  <img src="docs/s3-edit-dialog.png" alt="Edit session dialog" width="75%"><br>
   <em>Diálogo para editar una sesión</em>
 </p>
 
@@ -40,3 +40,4 @@ Aplicación de escritorio en **Python + PySide6 (Qt)** para cronometrar tiempo p
 - Dependencias:  
   ```txt
   PySide6>=6.5
+
