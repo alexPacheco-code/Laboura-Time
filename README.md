@@ -1,5 +1,19 @@
 # ⏱️ Laboura Time
 
+<p align="left">
+  <a href="https://github.com/alexPacheco-code/Laboura-Time/releases">
+    <img src="https://img.shields.io/github/v/release/alexPacheco-code/Laboura-Time?sort=semver" alt="Latest release">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/github/license/alexPacheco-code/Laboura-Time" alt="License: MIT">
+  </a>
+  <img src="https://img.shields.io/badge/python-3.10%20|%203.11-blue" alt="Python versions">
+  <a href="https://github.com/alexPacheco-code/Laboura-Time/stargazers">
+    <img src="https://img.shields.io/github/stars/alexPacheco-code/Laboura-Time?style=social" alt="GitHub stars">
+  </a>
+</p>
+
+
 Aplicación de escritorio en **Python + PySide6 (Qt)** para cronometrar tiempo por **secciones** y **subdivisiones**, con histórico filtrable y exportación a CSV.  
 
 ## ✨ Funcionalidades
@@ -114,6 +128,7 @@ Laboura-Time/
   git commit -m "chore: stop tracking data.json"
   git push
   ~~~
+
 
 
 
